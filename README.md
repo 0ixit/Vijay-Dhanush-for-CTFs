@@ -1,11 +1,18 @@
 # Capture-the-Flags-in-Nutshell
 
 # Basic
-* xxd {file} - print file in the hexadecimal format
-* base64 {file} - encode and decode file data
+
+* xxd - print file in the hexadecimal format
+* base64 - encode and decode file data (generally ended with ==)
+* sha256sum - computer SHA256 message digest
+* openssl - cryptographical toolkit 
+* strings - print printable character in files
 
 # Forensics
-* exiftool {file} - All metadata associated with a file
+
+* exiftool - All metadata associated with a file
+* zbarimg - Extract text from QR code based image
+* feh - Open image from command line
 
 # Cryptography
 
